@@ -781,12 +781,7 @@ export default function Home() {
                   <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" />
                   WhatsApp
                 </button>
-                <button
-                  onClick={handleSmsOrder}
-                  className="flex-1 bg-blue-500 text-white py-3 sm:py-3.5 rounded-xl font-bold text-sm sm:text-base hover:bg-blue-600 transition-all transform hover:scale-[1.02] active:scale-[0.98]"
-                >
-                  SMS
-                </button>
+               
               </div>
               <button
                 onClick={() => setShowCheckout(false)}
