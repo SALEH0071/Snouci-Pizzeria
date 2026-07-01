@@ -288,7 +288,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
               <button
                 onClick={() => { setActiveCat(null); setSearchQuery(''); setDrawerOpen(true) }}
-                className="group relative overflow-hidden bg-accent text-primary px-8 py-3.5 rounded-2xl font-bold text-base transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-xl w-full sm:w-auto"
+                className="group relative overflow-hidden bg-accent text-black px-8 py-3.5 rounded-2xl font-bold text-base transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-xl w-full sm:w-auto"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2.5">
                   <Utensils className="w-5 h-5" />
@@ -369,7 +369,7 @@ export default function Home() {
                   <p className="text-sm text-muted-foreground mb-5">لا تفوّت هذا العرض الاستثنائي!</p>
                   <button
                     onClick={() => openDrawerWithCategory('special')}
-                    className="bg-accent text-primary px-7 py-2.5 rounded-xl font-bold text-sm hover:bg-accent/90 transition-all transform hover:scale-105 active:scale-95"
+                    className="bg-accent text-black px-7 py-2.5 rounded-xl font-bold text-sm hover:bg-accent/90 transition-all transform hover:scale-105 active:scale-95"
                   >
                     اطلب الآن
                   </button>
@@ -564,7 +564,7 @@ export default function Home() {
                                 className={`flex-shrink-0 flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl font-bold text-sm transition-all duration-300 transform active:scale-90 ${
                                   isAdded
                                     ? 'bg-green-500 text-black scale-105 shadow-lg shadow-green-500/30'
-                                    : 'bg-accent text-primary hover:scale-105 hover:shadow-lg hover:shadow-accent/20'
+                                    : 'bg-accent text-black hover:scale-105 hover:shadow-lg hover:shadow-accent/20'
                                 }`}
                               >
                                 {isAdded ? (
@@ -600,7 +600,7 @@ export default function Home() {
               </div>
               <button
                 onClick={() => { setDrawerOpen(false); setShowCheckout(true) }}
-                className="w-full bg-accent text-primary py-3 sm:py-3.5 rounded-xl font-bold text-sm sm:text-base hover:bg-accent/90 transition-all transform hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2 shadow-lg shadow-accent/20"
+                className="w-full bg-accent text-black px-3 py-3.5 rounded-xl font-bold text-sm sm:text-base hover:bg-accent/90 transition-all transform hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2 shadow-lg shadow-accent/20"
               >
                 <ShoppingCart className="w-5 h-5" />
                 إتمام الطلب
@@ -659,7 +659,7 @@ export default function Home() {
       {cart.length > 0 && (
         <button
           onClick={() => setShowCheckout(true)}
-          className="fixed bottom-5 right-5 sm:bottom-8 sm:right-8 bg-accent text-primary px-6 py-3.5 sm:px-7 sm:py-4 rounded-full shadow-2xl hover:shadow-[0_0_40px_rgba(212,168,67,0.3)] transition-all transform hover:scale-105 active:scale-95 z-30 font-bold text-base sm:text-lg flex items-center gap-2.5"
+          className="fixed bottom-5 right-5 sm:bottom-8 sm:right-8 bg-accent text-black px-6 py-3.5 sm:px-7 sm:py-4 rounded-full shadow-2xl hover:shadow-[0_0_40px_rgba(212,168,67,0.3)] transition-all transform hover:scale-105 active:scale-95 z-30 font-bold text-base sm:text-lg flex items-center gap-2.5"
         >
           <ShoppingCart className="w-5 h-5" />
           <span className="hidden sm:inline">اطلب الآن</span>
