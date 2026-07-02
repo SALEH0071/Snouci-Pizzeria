@@ -185,7 +185,7 @@ export default function Home() {
     }).join('\n')
 
     /* بناء الرسالة كنص عادي مع \n */
-    let message = `*طلب جديد — LA MAISON Djialt & Snouci*\n\n`
+    let message = `*طلب جديد — LA MAISON Dj & Snouci*\n\n`
     message += `👤 *الاسم:* ${formData.name.trim()}\n`
     message += `📱 *الهاتف:* ${formData.phone.trim()}\n`
     message += `📍 *العنوان:* ${formData.address.trim()}\n\n`
