@@ -7,7 +7,7 @@ const playfair = Playfair_Display({ variable: '--font-playfair', subsets: ['lati
 const inter = Inter({ variable: '--font-inter', subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'LA MAISON Djialt & Snouci Pizzeria',
+  title: 'LA MAISON DjALIL & SNOUCI PEZZERIA',
   description: 'Premium pizza ordering experience - Luxury pizzeria with artisanal dishes',
   generator: 'v0.app',
   icons: {
