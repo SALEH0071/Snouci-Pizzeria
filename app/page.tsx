@@ -185,7 +185,7 @@ export default function Home() {
     }).join('\n')
 
     /* بناء الرسالة كنص عادي مع \n */
-    let message = `*طلب جديد — LA MAISON Dj & Snouci*\n\n`
+    let message = `*طلب جديد — LA CASA*\n\n`
     message += `👤 *الاسم:* ${formData.name.trim()}\n`
     message += `📱 *الهاتف:* ${formData.phone.trim()}\n`
     message += `📍 *العنوان:* ${formData.address.trim()}\n\n`
@@ -196,7 +196,7 @@ export default function Home() {
       message += `\n\n📝 *ملاحظات:* ${formData.notes.trim()}`
     }
 
-    message += `\n\nشكراً لاختيارك LA MAISON!`
+    message += `\n\nشكراً لاختيارك LA CASA!`
 
     /* ترميز الرسالة كلها دفعة واحدة — هذا هو السر */
     window.open(`https://wa.me/213777277126?text=${encodeURIComponent(message)}`, '_blank')
@@ -222,7 +222,7 @@ export default function Home() {
     }).join('\n')
 
     /* بناء الرسالة — نص بسيط بدون رموز خاصة */
-    let message = `طلب جديد - LA MAISON Djialt & Snouci\n`
+    let message = `طلب جديد - LA CASA\n`
     message += `الاسم: ${formData.name.trim()}\n`
     message += `الهاتف: ${formData.phone.trim()}\n`
     message += `العنوان: ${formData.address.trim()}\n\n`
@@ -263,21 +263,19 @@ export default function Home() {
           <div className="relative z-10 text-center max-w-2xl mx-auto">
             <div className="mb-8">
               <p className="text-[11px] sm:text-xs tracking-[0.35em] uppercase text-muted-foreground mb-3 font-medium">
-                Bienvenue chez
               </p>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-playfair font-bold leading-[1.15] mb-2">
-                <span className="text-foreground">LA MAISON</span>
+                <span className="text-foreground">WELCOME TO</span>
               </h1>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-playfair font-bold text-accent leading-tight mb-1.5">
-                djalil &amp; Snouci
-              </h2>
+                LA &amp; CASA pizzeria              </h2>
               <div className="flex items-center justify-center gap-3 my-4">
                 <span className="block w-8 h-px bg-accent/40" />
                 <span className="block w-1.5 h-1.5 rounded-full bg-accent/60" />
                 <span className="block w-8 h-px bg-accent/40" />
               </div>
               <p className="text-[13px] sm:text-sm tracking-[0.5em] uppercase text-muted-foreground font-light">
-                Pizzeria
+                
               </p>
             </div>
 

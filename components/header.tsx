@@ -5,10 +5,10 @@ export default function Header() {
         <div className="flex items-center justify-center">
           <div className="text-center">
             <h1 className="font-playfair text-5xl md:text-6xl font-bold text-accent opacity-90 mb-1">
-              LA MAISON
+              
             </h1>
             <p className="text-sm md:text-base text-accent font-semibold tracking-[0.15em] uppercase">
-              djalil & Snouci Pizzeria
+              
             </p>
             <div className="h-1 w-16 bg-accent mx-auto mt-3 opacity-80"></div>
           </div>
